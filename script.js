@@ -1,17 +1,4 @@
 document.addEventListener('DOMContentLoaded', function () {
-
-  /* =========================================================
-     WHATSAPP LINKS
-     ========================================================= */
-  var WHATSAPP_NUMBER = '212661688120';
-  var WHATSAPP_MESSAGE = "Bonjour Auto Turbo, j'aimerais avoir des informations sur vos services.";
-  var whatsappUrl = 'https://wa.me/' + WHATSAPP_NUMBER + '?text=' + encodeURIComponent(WHATSAPP_MESSAGE);
-
-  ['heroWhatsapp', 'ctaWhatsapp', 'footerWhatsapp'].forEach(function (id) {
-    var el = document.getElementById(id);
-    if (el) { el.setAttribute('href', whatsappUrl); }
-  });
-
   /* =========================================================
      STICKY NAVIGATION
      ========================================================= */
